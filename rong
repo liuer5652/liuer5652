@@ -1,0 +1,3 @@
+ if (!ValidationContent.class.isAssignableFrom(inputType)) 
+      throw new Exception("Wrong input type to adapter."); 
+    return ValidationContent.class; 
